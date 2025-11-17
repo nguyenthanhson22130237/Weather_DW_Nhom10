@@ -5,16 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>vn.edu.hcmuaf.fit</groupId>
-    <artifactId>web</artifactId>
+    <artifactId>WH</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>web</name>
+    <name>WH</name>
     <packaging>war</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>23</maven.compiler.target>
-        <maven.compiler.source>23</maven.compiler.source>
-        <junit.version>5.11.0-M2</junit.version>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <junit.version>5.11.0</junit.version>
     </properties>
 
     <dependencies>
@@ -35,6 +35,16 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20210307</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
         </dependency>
     </dependencies>
 
